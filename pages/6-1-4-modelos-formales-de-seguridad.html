@@ -57,8 +57,72 @@
         <div class="card-body">
 
           <p class="card-text">
-           En construcción
+            La creciente dependencia de los sistemas informáticos en áreas críticas como finanzas,
+            salud, defensa y gobierno ha generado la necesidad de establecer enfoques robustos para
+            proteger la información y los recursos. Los modelos formales de seguridad emergen como
+            una herramienta poderosa para proporcionar garantías matemáticas sobre la integridad,
+            confidencialidad y disponibilidad de los sistemas. Este trabajo aborda los principales
+            modelos formales de seguridad, su clasificación, características, ventajas y limitaciones,
+            destacando su importancia en el diseño de sistemas seguros.
           </p>
+
+          <div class="card-text">
+            <p><strong>Definición y Propósito de los Modelos Formales de Seguridad</strong></p>
+            <p>
+                Un modelo formal de seguridad es una representación matemática o lógica que define y verifica políticas de seguridad dentro de un sistema. Su propósito principal es garantizar que los sistemas informáticos cumplan con requisitos específicos de seguridad mediante el uso de reglas y relaciones precisas.
+            </p>
+            <p>Los objetivos de los modelos formales incluyen:</p>
+            <ul class="card-text">
+                <li><strong>Confidencialidad:</strong> Garantizar que la información sensible solo sea accesible a sujetos autorizados.</li>
+                <li><strong>Integridad:</strong> Asegurar que los datos no sean alterados sin autorización.</li>
+                <li><strong>Disponibilidad:</strong> Garantizar que los recursos estén disponibles para los usuarios autorizados cuando los necesiten.</li>
+            </ul>
+        
+            <p><strong>Clasificación de los Modelos Formales</strong></p>
+            <p>Los modelos formales de seguridad se dividen en varias categorías, dependiendo del aspecto de la seguridad que aborden:</p>
+        
+            <ul class="card-text">
+                <li><strong>Modelos de Confidencialidad:</strong>
+                    <ul class="card-text">
+                        <li>
+                            <strong>Modelo Bell-LaPadula (BLP):</strong> Este modelo garantiza que los usuarios solo puedan leer información en su nivel de seguridad o por debajo de este 
+                            (propiedad de "no lectura hacia arriba") y escribir información únicamente en su nivel de seguridad o por encima de este (propiedad de "no escritura hacia abajo"). 
+                            Es ideal para sistemas militares y gubernamentales.
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Modelos de Integridad:</strong>
+                    <ul class="card-text">
+                        <li>
+                            <strong>Modelo Biba:</strong> Este modelo es el opuesto al Bell-LaPadula y garantiza que los usuarios no puedan leer información de niveles inferiores 
+                            (propiedad de "no lectura hacia abajo") ni escribir en niveles superiores (propiedad de "no escritura hacia arriba"). Es útil en sistemas financieros y médicos.
+                        </li>
+                        <li>
+                            <strong>Modelo Clark-Wilson:</strong> Define una arquitectura basada en transacciones bien formadas y separación de funciones para garantizar la integridad de los datos.
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Modelos de Disponibilidad:</strong>
+                    <ul class="card-text">
+                        <li>
+                            Diseñados para garantizar que los recursos del sistema estén disponibles para los usuarios autorizados. Aunque no existen modelos formales ampliamente reconocidos para la disponibilidad, 
+                            las políticas y métricas de calidad de servicio (QoS) a menudo se integran con modelos de seguridad.
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Modelos Basados en Políticas de Control de Acceso:</strong>
+                    <ul class="card-text">
+                        <li>
+                            <strong>Modelo de Control Basado en Roles (RBAC):</strong> Define el acceso a recursos en función de los roles de los usuarios, mejorando la gestión de permisos en sistemas organizativos.
+                        </li>
+                        <li>
+                            <strong>Modelo de Control Basado en Atributos (ABAC):</strong> Extiende RBAC utilizando atributos dinámicos como ubicación o tiempo.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
 
         
 
@@ -82,7 +146,7 @@
             </li>
             <li class="page-item"><a class="page-link" href="actividad-1.html">5</a></li>
             <li class="page-item">
-                <a class="page-link" href="5-2-principios-del-software-de-e-s.html">Siguiente Tema</a>
+              <a class="page-link" href="6-2-virtualizacion.html">Siguiente Tema</a>
             </li>
         </ul>
         

@@ -56,25 +56,77 @@
 
                 <div class="card-body">
 
-                    <p class="card-text">
-                        En construcción
-                    </p>
+                    <div class="card-text">
+                        <p class="card-text">
+                            <strong>¿Qué es?</strong>
+                            La paravirtualización es una técnica de virtualización en la que el sistema operativo
+                            invitado está modificado para ser consciente del entorno virtual en el que se ejecuta. Esto
+                            permite que el sistema invitado colabore directamente con el hipervisor, logrando una mayor
+                            eficiencia y menor sobrecarga en comparación con la virtualización completa. La
+                            paravirtualización reduce la necesidad de emulación completa de hardware, ya que el sistema
+                            invitado es capaz de comunicarse de manera más directa con el hipervisor.
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Ventajas y Desventajas:</strong>
+                        <ul class="card-text">
+                            <li><strong>Ventajas:</strong>
+                                <ul class="card-text">
+                                    <li><strong>Mayor rendimiento:</strong> Al reducir la emulación de hardware, la
+                                        paravirtualización ofrece un rendimiento más eficiente.</li>
+                                    <li><strong>Menor sobrecarga:</strong> El sistema operativo invitado puede
+                                        interactuar directamente con el hipervisor, reduciendo la sobrecarga.</li>
+                                    <li><strong>Mejor gestión de recursos:</strong> Permite una distribución de recursos
+                                        más controlada y eficiente.</li>
+                                </ul>
+                            </li>
+
+                            <li><strong>Desventajas:</strong>
+                                <ul class="card-text">
+                                    <li><strong>Requiere modificaciones en el sistema operativo invitado:</strong> No
+                                        todos los sistemas operativos están diseñados para soportar paravirtualización.
+                                    </li>
+                                    <li><strong>Limitaciones de compatibilidad:</strong> Debido a la necesidad de
+                                        modificar el sistema operativo, no todos los entornos son compatibles.</li>
+                                    <li><strong>Dependencia del hipervisor:</strong> La paravirtualización está
+                                        fuertemente vinculada al hipervisor que soporta esta tecnología.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </p>
+
+                        <p class="card-text">
+                            <strong>Tipos de Paravirtualización:</strong>
+                            Existen diferentes enfoques de paravirtualización que varían según la implementación y el
+                            nivel de intervención en el sistema operativo invitado. Algunos ejemplos incluyen:
+                        <ul class="card-text">
+                            <li><strong>Paravirtualización a nivel de kernel:</strong> Modificaciones en el núcleo del
+                                sistema operativo para mejorar la comunicación con el hipervisor.</li>
+                            <li><strong>Paravirtualización parcial:</strong> Solo ciertas partes del sistema operativo
+                                son adaptadas para interactuar con el hipervisor, manteniendo compatibilidad en otros
+                                aspectos.</li>
+                            <li><strong>Paravirtualización completa:</strong> El sistema operativo está completamente
+                                modificado para funcionar en un entorno paravirtualizado, logrando mayor eficiencia.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+
 
                     <ul class="pagination justify-content-end">
                         <li class="page-item">
                             <a class="page-link" href="introduccion.html">Anterior</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="6-2-virtualizacion.html">2</a>
+                        <li class="page-item"><a class="page-link" href="6-2-virtualizacion.html">1</a>
                         </li>
+                        <li class="page-item"><a class="page-link" href="6-2-1-emulacion.html">2</a></li>
                         <li class="page-item"><a class="page-link"
-                                href="6-2-1-emulacion.html">3</a></li>
-                        <li class="page-item"><a class="page-link"
-                                href="6-2-2-virtualizacion-asistida-por-hardware.html">4</a></li>
-                        <li class="page-item active"><a class="page-link"
-                                href="6-2-3-paravirtualizacion.html">5</a></li>
-                        <li class="page-item"><a class="page-link" href="6-2-4-contenedores.html">6</a>
+                                href="6-2-2-virtualizacion-asistida-por-hardware.html">3</a></li>
+                        <li class="page-item active"><a class="page-link" href="6-2-3-paravirtualizacion.html">4</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="actividad-2.html">5</a></li>
+                        <li class="page-item"><a class="page-link" href="6-2-4-contenedores.html">5</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="actividad-2.html">6</a></li>
                         <li class="page-item">
                             <a class="page-link" href="bibliografia.html">Lista de referencias bibliográficas</a>
                         </li>
