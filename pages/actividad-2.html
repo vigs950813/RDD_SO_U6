@@ -81,145 +81,95 @@
                         relacionados con este tema y que puedas evaluar los aprendizajes adquiridos.
                     </p>
 
-                    <p class="card-text">
-                        Actividad en construcción.
-                    </p>
-
-                    <!-- <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">1. Se encarga de asignar y liberar espacio en el
-                            almacenamiento para los archivos y datos del sistema y de los usuarios. Esto incluye
-                            técnicas como el particionamiento del disco, la gestión de archivos y la administración del
-                            espacio libre.
-                        </h2>
-                        <input type="radio" name="q1" value="a"> <b>a)</b> Sistemas de Archivos.<br>
-                        <input type="radio" name="q1" value="b"> <b>b)</b> Gestión de Cuotas.<br>
-                        <input type="radio" name="q1" value="c"> <b>c)</b> Administración de Espacio.<br>
+                    <div>
+                        <h5>1. ¿Qué es la virtualización?</h5>
+                        <input type="radio" id="q1a" name="q1" value="a">
+                        <label for="q1a">a) Es una técnica para dividir un sistema en múltiples discos físicos.</label><br>
+                        <input type="radio" id="q1b" name="q1" value="b">
+                        <label for="q1b">b) Es la creación de una versión virtual de un recurso computacional.</label><br>
+                        <input type="radio" id="q1c" name="q1" value="c">
+                        <label for="q1c">c) Es un método para comprimir datos.</label><br>
+                        <div id="feedback-q1"></div>
+                    </div>
+                    
+                    <div>
+                        <h5>2. ¿Cuál es la principal función de un emulador?</h5>
+                        <input type="radio" id="q2a" name="q2" value="a">
+                        <label for="q2a">a) Simular un entorno de hardware diferente.</label><br>
+                        <input type="radio" id="q2b" name="q2" value="b">
+                        <label for="q2b">b) Crear una máquina virtual en el mismo hardware.</label><br>
+                        <input type="radio" id="q2c" name="q2" value="c">
+                        <label for="q2c">c) Monitorear el uso de recursos en tiempo real.</label><br>
+                        <div id="feedback-q2"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">2. Define la estructura y el método para
-                            almacenar y organizar archivos en dispositivos de almacenamiento. Los sistemas de archivos
-                            pueden variar en complejidad y características, desde simples sistemas como FAT (Tabla de
-                            Asignación de Archivos) hasta sistemas avanzados como NTFS (Sistema de Archivos de Nueva
-                            Tecnologí<b>a)</b> en Windows o ext4 (Sistema de archivos extendido 4) en sistemas Linux.</h2>
-                        <input type="radio" name="q2" value="a"> <b>a)</b> Sistemas de Archivos.<br>
-                        <input type="radio" name="q2" value="b"> <b>b)</b> Gestión de Cuotas.<br>
-                        <input type="radio" name="q2" value="c"> <b>c)</b> Administración de Espacio.<br>
-                        
-                        <span id="feedback-q2"></span>
+                    <div>
+                        <h5>3. ¿Qué es la virtualización asistida por hardware?</h5>
+                        <input type="radio" id="q3a" name="q3" value="a">
+                        <label for="q3a">a) Ejecutar múltiples sistemas operativos sin soporte del hardware.</label><br>
+                        <input type="radio" id="q3b" name="q3" value="b">
+                        <label for="q3b">b) Usar características del CPU para mejorar la eficiencia de la virtualización.</label><br>
+                        <input type="radio" id="q3c" name="q3" value="c">
+                        <label for="q3c">c) Emular un sistema operativo dentro de otro.</label><br>
+                        <div id="feedback-q3"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">3. Permite establecer límites en el espacio de
-                            almacenamiento que los usuarios o grupos de usuarios pueden utilizar. Esto ayuda a prevenir
-                            el uso excesivo de recursos y garantiza una distribución equitativa del almacenamiento entre
-                            los usuarios.
-                        </h2>
-                        <input type="radio" name="q3" value="a"> <b>a)</b> Sistemas de Archivos.<br>
-                        <input type="radio" name="q3" value="b"> <b>b)</b> Gestión de Cuotas.<br>
-                        <input type="radio" name="q3" value="c"> <b>c)</b> Administración de Espacio.<br>
-                        
-                        <span id="feedback-q3"></span>
+                    <div>
+                        <h5>4. ¿Cómo se diferencia la paravirtualización de la virtualización tradicional?</h5>
+                        <input type="radio" id="q4a" name="q4" value="a">
+                        <label for="q4a">a) La paravirtualización requiere emulación completa del hardware.</label><br>
+                        <input type="radio" id="q4b" name="q4" value="b">
+                        <label for="q4b">b) Los sistemas operativos invitados están conscientes de que son virtualizados.</label><br>
+                        <input type="radio" id="q4c" name="q4" value="c">
+                        <label for="q4c">c) La paravirtualización no requiere un hipervisor.</label><br>
+                        <div id="feedback-q4"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">4. Los sistemas operativos utilizan la memoria
-                            de intercambio y sus ventajas son:</h2>
-                        <input type="radio" name="q4" value="a"> <b>a)</b> Puede ralentizar el sistema si hay un intercambio
-                        excesivo de datos entre la RAM y el almacenamiento secundario.<br>
-                        <input type="radio" name="q4" value="b"> <b>b)</b> Aumenta la carga en el disco duro o la unidad de
-                        estado sólido, lo que puede reducir su vida útil.<br>
-                        <input type="radio" name="q4" value="c"> <b>c)</b> Permite ejecutar aplicaciones que requieren más
-                        memoria que la disponible físicamente, ayuda a evitar que los programas se cierren
-                        inesperadamente debido a la falta de memoria y es multitarea que ejecutan simultáneamente.
-                        <br>
-                        
-                        <span id="feedback-q4"></span>
+                    <div>
+                        <h5>5. ¿Qué son los contenedores en el contexto de sistemas operativos?</h5>
+                        <input type="radio" id="q5a" name="q5" value="a">
+                        <label for="q5a">a) Un método para particionar discos.</label><br>
+                        <input type="radio" id="q5b" name="q5" value="b">
+                        <label for="q5b">b) Una forma de empaquetar software junto con sus dependencias.</label><br>
+                        <input type="radio" id="q5c" name="q5" value="c">
+                        <label for="q5c">c) Un tipo de máquina virtual.</label><br>
+                        <div id="feedback-q5"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">5. Los sistemas operativos utilizan la memoria
-                            de intercambio y sus ventajas son:</h2>
-                        <input type="radio" name="q5" value="a"> <b>a)</b> Puede ralentizar el sistema si hay un intercambio
-                        excesivo de datos entre la RAM y el almacenamiento secundario y aumenta la carga en el disco
-                        duro o la unidad de estado sólido, lo que puede reducir su vida útil.<br>
-                        <input type="radio" name="q5" value="b"> <b>b)</b> Permite ejecutar aplicaciones que requieren más
-                        memoria que la disponible físicamente, ayuda a evitar que los programas se cierren
-                        inesperadamente debido a la falta de memoria y es multitarea que ejecutan simultáneamente.<br>
-                        <input type="radio" name="q5" value="c"> <b>c)</b> Permite establecer límites en el espacio de
-                        almacenamiento que los usuarios o grupos de usuarios pueden utilizar.<br>
-                        
-                        <span id="feedback-q5"></span>
+                    <div>
+                        <h5>6. ¿Cuál es una ventaja principal de los contenedores frente a las máquinas virtuales?</h5>
+                        <input type="radio" id="q6a" name="q6" value="a">
+                        <label for="q6a">a) Consumen menos recursos al compartir el kernel del sistema operativo.</label><br>
+                        <input type="radio" id="q6b" name="q6" value="b">
+                        <label for="q6b">b) Ofrecen un entorno más aislado a nivel de hardware.</label><br>
+                        <input type="radio" id="q6c" name="q6" value="c">
+                        <label for="q6c">c) Soportan más sistemas operativos diferentes.</label><br>
+                        <div id="feedback-q6"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">6. Los sistemas operativos utilizan el manejo de
-                            memoria con mapas de bits y sus características son:</h2>
-                        <input type="radio" name="q6" value="a"> <b>a)</b> Bloques de memoria están asignados y cuáles están
-                        libres, el uso de un mapa de bits, una estructura de datos que representa cada bloque de memoria
-                        como un bit en una secuencia binaria y es esencial.<br>
-                        <input type="radio" name="q6" value="b"> <b>b)</b> Permite ejecutar aplicaciones que requieren más
-                        memoria que la disponible físicamente, ayuda a evitar que los programas se cierren
-                        inesperadamente debido a la falta de memoria y es multitarea que ejecutan simultáneamente.<br>
-                        <input type="radio" name="q6" value="c"> <b>c)</b> Permite establecer límites en el espacio de
-                        almacenamiento que los usuarios o grupos de usuarios pueden utilizar.<br>
-                        <span id="feedback-q6"></span>
+                    <div>
+                        <h5>7. ¿Qué componente es fundamental en la virtualización asistida por hardware?</h5>
+                        <input type="radio" id="q7a" name="q7" value="a">
+                        <label for="q7a">a) Hipervisor.</label><br>
+                        <input type="radio" id="q7b" name="q7" value="b">
+                        <label for="q7b">b) Emulador de BIOS.</label><br>
+                        <input type="radio" id="q7c" name="q7" value="c">
+                        <label for="q7c">c) Contenedor.</label><br>
+                        <div id="feedback-q7"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">7. El manejo de memoria con listas ligadas es...
-                        </h2>
-                        <input type="radio" name="q7" value="a"> <b>a)</b> Bloques de memoria están asignados y cuáles están
-                        libres, el uso de un mapa de bits, una estructura de datos que representa cada bloque de memoria
-                        como un bit en una secuencia binaria y es esencial.
-                        <br>
-                        <input type="radio" name="q7" value="b"> <b>b)</b> Un método para gestionar la memoria constante que
-                        se asigna a los procesos de un sistema operativo.<br>
-                        <input type="radio" name="q7" value="c"> <b>c)</b> Puede ralentizar el sistema si hay un intercambio
-                        excesivo de datos entre la RAM y el almacenamiento secundario.
-                        <br>
-                        
-                        <span id="feedback-q7"></span>
+                    <div>
+                        <h5>8. ¿Qué hace un emulador que un hipervisor no puede hacer directamente?</h5>
+                        <input type="radio" id="q8a" name="q8" value="a">
+                        <label for="q8a">a) Compartir el kernel del sistema operativo anfitrión.</label><br>
+                        <input type="radio" id="q8b" name="q8" value="b">
+                        <label for="q8b">b) Simular un entorno de hardware completamente diferente.</label><br>
+                        <input type="radio" id="q8c" name="q8" value="c">
+                        <label for="q8c">c) Ejecutar múltiples sistemas operativos.</label><br>
+                        <div id="feedback-q8"></div>
                     </div>
                     <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">8. El manejo de memoria con listas tiene como
-                            características:</h2>
-                        <input type="radio" name="q8" value="a"> <b>a)</b> Una lista de bloques de memoria asignados, cada uno
-                        de los cuales tiene información sobre su tamaño y posición, además de un enlace al siguiente
-                        bloque en la lista.<br>
-                        <input type="radio" name="q8" value="b"> <b>b)</b> Bloques de memoria están asignados y cuáles están
-                        libres, el uso de un mapa de bits, una estructura de datos que representa cada bloque de memoria
-                        como un bit en una secuencia binaria y es esencial.<br>
-                        <input type="radio" name="q8" value="c"> <b>c)</b> Permite ejecutar aplicaciones que requieren más
-                        memoria que la disponible físicamente, ayuda a evitar que los programas se cierren
-                        inesperadamente debido a la falta de memoria y es multitarea que ejecutan simultáneamente.<br>
-                        <span id="feedback-q8"></span>
-                    </div>
-                    <br>
-
-                    <div class="question" style="text-align: justify;">
-                        <h2 style="font-size: 17px; font-weight: bold;">9. Cuando el sistema operativo crea un bloque de
-                            memoria y lo incluye en la lista ligada dentro de un proceso necesita memoria y genera:</h2>
-                        <input type="radio" name="q9" value="a"> <b>a)</b> Una lista de bloques de memoria asignados, cada uno
-                        de los cuales tiene información sobre su tamaño y posición, además de un enlace al siguiente
-                        bloque en la lista.<br>
-                        <input type="radio" name="q9" value="b"> <b>b)</b> El bloque se elimina de la lista por el sistema
-                        operativo cuando se libera memoria, esto facilita el manejo de la memoria fragmentada y permite
-                        un acceso rápido a los bloques de memoria asignados.<br>
-                        <input type="radio" name="q9" value="c"> <b>c)</b> Puede ralentizar el sistema si hay un intercambio
-                        excesivo de datos entre la RAM y el almacenamiento secundario.<br>
-                        <span id="feedback-q8"></span>
-                    </div>
-                    <br>
-
+                    
                     <div class="container text-center">
 
                         <div class="row" style="border-color: transparent;">
@@ -233,7 +183,8 @@
                             </div>
                         </div>
 
-                    </div> -->
+                    </div>
+
 
                     <br>
 
@@ -241,17 +192,15 @@
                         <li class="page-item">
                             <a class="page-link" href="introduccion.html">Anterior</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="6-2-virtualizacion.html">2</a>
+                        <li class="page-item"><a class="page-link" href="6-2-virtualizacion.html">1</a>
                         </li>
+                        <li class="page-item"><a class="page-link" href="6-2-1-emulacion.html">2</a></li>
                         <li class="page-item"><a class="page-link"
-                                href="6-2-1-emulacion.html">3</a></li>
-                        <li class="page-item"><a class="page-link"
-                                href="6-2-2-virtualizacion-asistida-por-hardware.html">4</a></li>
-                        <li class="page-item"><a class="page-link"
-                                href="6-2-3-paravirtualizacion.html">5</a></li>
-                        <li class="page-item"><a class="page-link" href="6-2-4-contenedores.html">6</a>
+                                href="6-2-2-virtualizacion-asistida-por-hardware.html">3</a></li>
+                        <li class="page-item"><a class="page-link" href="6-2-3-paravirtualizacion.html">4</a></li>
+                        <li class="page-item"><a class="page-link" href="6-2-4-contenedores.html">5</a>
                         </li>
-                        <li class="page-item active"><a class="page-link" href="actividad-2.html">5</a></li>
+                        <li class="page-item active"><a class="page-link" href="actividad-2.html">6</a></li>
                         <li class="page-item">
                             <a class="page-link" href="bibliografia.html">Lista de referencias bibliográficas</a>
                         </li>
